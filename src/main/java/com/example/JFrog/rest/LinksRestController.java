@@ -17,7 +17,7 @@ import java.util.List;
 @AllArgsConstructor
 public class LinksRestController {
 
-    private final LinksService linksService;
+    private LinksService linksService;
 
     @GetMapping("/getAllLinks")
     public ResponseEntity<List<Links>> getAllCoordinates(){

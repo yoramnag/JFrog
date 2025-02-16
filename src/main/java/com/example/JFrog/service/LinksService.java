@@ -11,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 public class LinksService {
 
-    private final LinksRepository linksRepository;
+    private LinksRepository linksRepository;
 
     public List<Links> findAll(){
         return linksRepository.findAll();
